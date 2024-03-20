@@ -36,10 +36,10 @@ This repository contains scripts for real-time wildlife animal detection using Y
 
 - ## Code Explanation
 
-This Python script enables real-time wildlife animal detection using YOLOv5, an advanced object detection algorithm. Below is a breakdown of its functionality:
+This Python script enables real-time wildlife animal detection using YOLOv8, an advanced object detection algorithm. Below is a breakdown of its functionality:
 
 1. **Imports**: The script imports necessary libraries:
-   - `ultralytics.YOLO`: Interface for YOLOv5 models.
+   - `ultralytics.YOLO`: Interface for YOLOv8 models.
    - `cv2`: OpenCV library for computer vision tasks.
    - `math`: Python math library for mathematical operations.
 
@@ -47,7 +47,7 @@ This Python script enables real-time wildlife animal detection using YOLOv5, an 
    - `cv2.VideoCapture(0)`: Opens the default webcam (index 0) for real-time video capture.
 
 3. **Model Loading**:
-   - `YOLO('best.pt')`: Loads a pre-trained YOLOv5 model from the file 'best.pt'.
+   - `YOLO('best.pt')`: Loads a pre-trained YOLOv8 model from the file 'best.pt'.
 
 4. **Class Names**: 
    - `classnames`: A list containing names of wildlife animal classes that the model can detect.
@@ -56,7 +56,7 @@ This Python script enables real-time wildlife animal detection using YOLOv5, an 
    - `while True:`: Loops indefinitely until the 'Esc' key is pressed.
 
 6. **Inference with YOLOv5**:
-   - `result = model(frame, stream=True)`: Detects objects in the current frame using the YOLOv5 model with real-time streaming.
+   - `result = model(frame, stream=True)`: Detects objects in the current frame using the YOLOv8 model with real-time streaming.
 
 7. **Bounding Boxes and Display**:
    - Draws bounding boxes around detected objects and displays class labels with confidence percentages.
