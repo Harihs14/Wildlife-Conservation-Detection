@@ -8,6 +8,9 @@ This repository contains scripts for real-time wildlife animal detection using Y
 - Python 3.x
 - OpenCV
 - Ultralytics YOLO package
+  
+## Dataset
+- https://universe.roboflow.com/machine-train-ur3hn/animals-detection-bsbbi.
 
 ## Installation
 1. Clone this repository to your local machine.
@@ -30,6 +33,3 @@ This repository contains scripts for real-time wildlife animal detection using Y
 ## Acknowledgments
 - The YOLOv8 model implementation is based on Ultralytics YOLO package.
 - Sample code adapted from [Ultralytics YOLO documentation](https://github.com/ultralytics/yolov8).
-
-##Dataset
-- https://universe.roboflow.com/machine-train-ur3hn/animals-detection-bsbbi
