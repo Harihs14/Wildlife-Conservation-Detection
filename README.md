@@ -32,4 +32,4 @@ This repository contains scripts for real-time wildlife animal detection using Y
 
 ## Acknowledgments
 - The YOLOv8 model implementation is based on Ultralytics YOLO package.
-- Sample code adapted from [Ultralytics YOLO documentation](https://github.com/ultralytics/yolov8).
+- Sample code adapted from [Ultralytics YOLO documentation]([https://github.com/ultralytics/yolov8]((https://github.com/ultralytics/ultralytics)).
